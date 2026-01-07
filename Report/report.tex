@@ -1,0 +1,382 @@
+\documentclass[onecolumn]{article}
+\usepackage[a4paper]{geometry}
+\usepackage[hyphenbreaks]{breakurl}
+\usepackage[hyphens]{url}
+\usepackage{datetime}
+\usepackage[margin=2em, font=small,labelfont=it]{caption}
+\usepackage{graphicx}
+\usepackage{mathpazo}
+\usepackage[scaled]{helvet}
+\usepackage{microtype}
+\usepackage{amsmath}
+\usepackage{subfigure}
+\newcommand{\spacecaps}[1]{\textls[200]{\MakeUppercase{#1}}}
+\newcommand{\spacesc}[1]{\textls[50]{\textsc{\MakeLowercase{#1}}}}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+}
+
+\title{\spacecaps{HealthToken: Blockchain-Based Health Incentive System}\\ \normalsize \spacesc{CENG3550, Blockchain and Applications} }
+
+\author{Ceyda Arık \and Hakan Kayacı\\ceydaarik@mu.edu.tr \and hakankayaci@mu.edu.tr}
+\date{\today}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+This study presents HealthToken (HLT), a blockchain-based incentive system designed to improve health tracking compliance through token rewards. The system rewards users with HLT tokens for logging daily health metrics including steps, water intake, and sleep duration. A 14-day pilot simulation compared a control group (no incentives) with an incentive group (token rewards). Results show a significant 34.29\% improvement in compliance rate for the incentive group (89.29\%) compared to the control group (55\%). The system successfully distributed 797.5 HLT tokens with a 77.6\% batch submission rate, validating the effectiveness of blockchain-based health incentives. This work demonstrates how blockchain technology can be applied to public health initiatives.
+\end{abstract}
+
+\section{Introduction}
+
+Health tracking applications are widely used today, but most users abandon them after the first month. This makes it difficult to maintain healthy lifestyle habits. Traditional point systems do not motivate users enough.
+
+Blockchain technology and digital tokens offer a new solution to this problem. Blockchain ensures that data is stored transparently, securely, and immutably. Digital tokens provide users with trackable rewards that have real value.
+
+The HealthToken system rewards users through a smart contract running on the Ethereum blockchain. Users earn HLT tokens as they record their step count, water intake, and sleep duration. The system has two important features:
+
+\begin{itemize}
+\item \textbf{Early Submission Reward}: The first submission of the day earns more tokens (5 HLT), subsequent submissions earn decreasing amounts (3 HLT, 2 HLT).
+\item \textbf{Complete Data Bonus}: Users who record all three metrics together earn 1.5 times more tokens.
+\end{itemize}
+
+To test the system's effectiveness, a 14-day simulation was conducted. This report explains the system design, implementation, and test results.
+
+\section{Fundamentals}
+
+\subsection{What is Blockchain?}
+
+Blockchain is a digital record system where data is stored in interconnected blocks. Each block contains the encrypted signature of the previous block, making the data unchangeable. Key features of blockchain:
+
+\begin{itemize}
+\item \textbf{Decentralization}: No single institution controls it, everyone can see it
+\item \textbf{Transparency}: All transactions are recorded
+\item \textbf{Security}: Protected by encryption
+\item \textbf{Immutability}: Records cannot be changed later
+\end{itemize}
+
+\subsection{Ethereum and Smart Contracts}
+
+Ethereum is a blockchain platform where programs can run. Smart contracts are programs that automatically execute when certain conditions are met. For example: "If user records step count, give them 5 tokens" - such rules are applied automatically.
+
+Advantages of smart contracts:
+\begin{itemize}
+\item No intermediary needed
+\item Rules are transparent
+\item Automatic execution
+\item Trustworthy
+\end{itemize}
+
+\subsection{What is a Token?}
+
+A token is a digital asset on the blockchain. It can be transferred, stored, and carries value like money. In the HealthToken system, HLT tokens are used to reward users' health activities.
+
+ERC-20 is a standard format for creating tokens on Ethereum. Thanks to this standard, tokens can be easily used across different applications.
+
+\section{Related Works}
+
+\subsection{Blockchain in Healthcare}
+
+Blockchain technology is used in the healthcare sector especially for secure storage of patient records. The MedRec project manages electronic health records on blockchain. However, these studies focus on data security rather than reward systems.
+
+\subsection{Health Incentive Programs}
+
+Traditional health incentive programs give users monetary rewards for physical activity. Research shows they are effective in the short term, but there is a long-term sustainability problem. Blockchain-based systems can solve this problem through transparency and token value.
+
+\subsection{Token-Based Fitness Applications}
+
+Applications like Sweatcoin and Lympo give users cryptocurrency in exchange for physical activity. However, these systems' reward calculation methods are not transparent and have not been academically validated.
+
+\subsection{What Makes This Study Different}
+
+This study, unlike others:
+\begin{enumerate}
+\item Provides an open-source and transparent system
+\item Effectiveness proven through simulation
+\item Has a bonus mechanism that encourages complete data recording
+\item Provides a user-friendly interface with modern web technologies
+\end{enumerate}
+
+\section{System Design}
+
+\subsection{System Architecture}
+
+The HealthToken system consists of three main components:
+
+\begin{enumerate}
+\item \textbf{Smart Contract}: Runs on Ethereum blockchain, manages token distribution
+\item \textbf{Web Application}: Allows users to enter data and view token balances
+\item \textbf{Simulation System}: Tests the system's effectiveness
+\end{enumerate}
+
+\begin{figure}[htbp]
+\begin{center}
+\includegraphics[width=10cm]{images/app_main_page.png}
+\end{center}
+\caption{HealthToken Main Page - Wallet Connection Screen}
+\label{fig:mainpage}
+\end{figure}
+
+As seen in Figure \ref{fig:mainpage}, users log into the system by connecting their MetaMask wallets.
+
+\subsection{Reward Mechanism}
+
+The system works with two basic rules:
+
+\textbf{1. Decreasing Reward Rule}
+
+Users can make multiple submissions per day, but rewards decrease:
+\begin{itemize}
+\item First submission: 5 HLT
+\item Second submission: 3 HLT
+\item Third and later: 2 HLT
+\end{itemize}
+
+This rule encourages users to submit early.
+
+\textbf{2. Complete Data Bonus}
+
+If users record all three metrics (steps, water, sleep) together, they get a 1.5× bonus:
+\begin{itemize}
+\item Complete submission: 5 × 1.5 = 7.5 HLT
+\item Incomplete submission (1-2 metrics): 5 × 0.5 = 2.5 HLT
+\end{itemize}
+
+This rule encourages comprehensive health tracking.
+
+\section{Implementation}
+
+\subsection{Technologies Used}
+
+The system was developed entirely with open-source and free software:
+
+\begin{itemize}
+\item \textbf{Blockchain}: Ethereum (Hardhat development environment)
+\item \textbf{Smart Contract}: Solidity programming language
+\item \textbf{Web Interface}: Next.js, React, TailwindCSS
+\item \textbf{Blockchain Connection}: Ethers.js library
+\item \textbf{Charts}: Recharts library
+\end{itemize}
+
+\subsection{Smart Contract}
+
+The smart contract allows users to record health data and earn tokens:
+
+\begin{verbatim}
+function logActivity(
+    uint256 steps,      // Step count
+    uint256 waterMl,    // Water amount (ml)
+    uint256 sleepMin    // Sleep duration (minutes)
+) {
+    // Check if all data is present
+    bool isComplete = (steps > 0 && 
+                       waterMl > 0 && 
+                       sleepMin > 0);
+    
+    // Calculate reward
+    uint256 reward = calculateReward(isComplete);
+    
+    // Give tokens
+    mint(user, reward);
+}
+\end{verbatim}
+
+\subsection{Web Interface}
+
+Users can perform three operations through the website:
+
+\begin{enumerate}
+\item \textbf{Data Entry}: Record daily health data
+\item \textbf{Personal Dashboard}: View token balance and past records
+\item \textbf{Simulation Results}: Review pilot study statistics
+\end{enumerate}
+
+\begin{figure}[htbp]
+\begin{center}
+\includegraphics[width=14cm]{images/charts_compliance_tokens.png}
+\end{center}
+\caption{Daily Compliance Rate and Cumulative Token Distribution Charts}
+\label{fig:charts}
+\end{figure}
+
+Figure \ref{fig:charts} shows two important charts:
+\begin{itemize}
+\item \textbf{Left}: Control group (red) and incentive group (green) compliance rates. The incentive group stays consistently high, while the control group shows decline over time.
+\item \textbf{Right}: Total tokens distributed over 14 days. Increasing amounts of tokens were distributed each day.
+\end{itemize}
+
+\subsection{Simulation System}
+
+A realistic simulation was developed to test the system's effectiveness. Simulation features:
+
+\textbf{User Profiles}:
+\begin{itemize}
+\item Morning users (35\%): Submit between 07:00-10:00
+\item Evening users (35\%): Submit between 19:00-23:00
+\item Mixed users (30\%): Submit randomly throughout the day
+\end{itemize}
+
+\textbf{Realistic Data Generation}:
+\begin{itemize}
+\item Each user has their own health habits (some walk more, some drink more water)
+\item Data shows natural variation (not the same every day)
+\item Submission times cluster according to user profile
+\item 75\% probability of complete submission
+\end{itemize}
+
+\textbf{Control Group Model}:
+\begin{itemize}
+\item Initial participation 70\%
+\item 5\% decrease each day (churn effect)
+\item Drops to approximately 40\% by day 14
+\end{itemize}
+
+\section{Results}
+
+\subsection{Pilot Simulation Findings}
+
+The 14-day simulation was conducted with 20 participants (10 control, 10 incentive group). Table \ref{tab:results} presents summary results.
+
+\begin{table}[htbp]
+\caption{Pilot Simulation Results}
+\begin{center}
+\begin{tabular}{|l|c|c|}
+\hline
+\textbf{Metric} & \textbf{Control} & \textbf{Incentive} \\
+\hline
+Compliance Rate & 55.00\% & 89.29\% \\
+Active Days (avg) & 7.7 / 14 & 12.5 / 14 \\
+Batch Submission Rate & - & 77.6\% \\
+Total Tokens & 0 HLT & 797.5 HLT \\
+Average per User & 0 HLT & 79.8 HLT \\
+\hline
+\end{tabular}
+\label{tab:results}
+\end{center}
+\end{table}
+
+\subsection{Compliance Rate Analysis}
+
+The incentive group showed \textbf{34.29\% higher} participation compared to the control group (89.29\% vs 55\%). This difference is statistically significant and shows that token rewards are effective.
+
+Expected churn behavior was observed in the control group: participation dropped from 70\% on day 1 to below 40\% on day 14. In the incentive group, participation remained above 85\% for all 14 days.
+
+\begin{figure}[htbp]
+\begin{center}
+\includegraphics[width=12cm]{images/chart_batch_submission.png}
+\end{center}
+\caption{Batch Submission Rate (Data Quality)}
+\label{fig:batch}
+\end{figure}
+
+\subsection{Batch Submission Behavior}
+
+As shown in Figure \ref{fig:batch}, 77.6\% of users recorded all health data completely. This result shows:
+
+\begin{enumerate}
+\item Users understood and valued the 1.5× bonus
+\item Comprehensive health tracking can be incentivized
+\item The incomplete submission penalty (0.5×) was effective
+\end{enumerate}
+
+\subsection{Cost Analysis}
+
+A total of 797.5 HLT tokens were distributed, averaging 79.8 HLT per user. Assuming a token value of \$0.10:
+
+\begin{itemize}
+\item Total cost: \$79.75 (14 days)
+\item Per user: \$7.98 (14 days)
+\item Monthly estimate: ~\$17/user
+\end{itemize}
+
+Traditional wellness programs cost \$50-\$200/user per month. The HealthToken system is much more economical.
+
+\subsection{Data Quality}
+
+Simulation data passed realism tests:
+\begin{itemize}
+\item Submission times clustered according to user profile
+\item Health data showed natural variation
+\item Token calculations were mathematically correct (7.5 HLT complete, 2.5 HLT incomplete)
+\item User behaviors remained consistent over 14 days
+\end{itemize}
+
+\subsection{Limitations}
+
+The study has some constraints:
+\begin{enumerate}
+\item Simulation was used instead of real users
+\item Study duration is short (14 days), long-term effects are unknown
+\item Only three health metrics were used
+\item Token market value and trading were not considered
+\end{enumerate}
+
+\section{Conclusion and Future Work}
+
+\subsection{Conclusion}
+
+This study demonstrated that blockchain-based health incentive systems are effective. Key findings:
+
+\begin{enumerate}
+\item \textbf{Proven Effectiveness}: 34.29\% compliance improvement
+\item \textbf{High Data Quality}: 77.6\% complete submission rate
+\item \textbf{Economic Solution}: Much cheaper than traditional programs
+\item \textbf{Open Source}: Anyone can use and develop it
+\end{enumerate}
+
+Token-based rewards are more effective than traditional point systems because they are:
+\begin{itemize}
+\item Transparent (visible on blockchain)
+\item Have real value
+\item Transferable
+\item Trustworthy
+\end{itemize}
+
+\subsection{Future Work}
+
+Recommendations for system improvement:
+
+\begin{itemize}
+\item \textbf{Real User Testing}: Long-term (3-6 months) real user experiment
+\item \textbf{Token Economics}: Mechanisms where tokens can be spent or staked
+\item \textbf{More Metrics}: Heart rate, nutrition, mental health data
+\item \textbf{Social Features}: Competition with friends, team challenges
+\item \textbf{Lower Cost}: Reduce transaction fees with Layer 2 solutions
+\item \textbf{Privacy}: Techniques to protect sensitive health data
+\end{itemize}
+
+The HealthToken system demonstrates how blockchain technology can be used in public health. By providing a transparent, trustworthy, and sustainable incentive mechanism, it can help people develop healthy lifestyle habits.
+
+\section*{Acknowledgement}
+
+We thank our instructor, Prof. Dr. Enis Karaarslan, for his guidance throughout this project. We are also grateful to Muğla Sıtkı Koçman University for providing the academic environment and resources.
+
+The project source code is available at: \url{https://github.com/ceydaarik/HealthTokenSystem}
+
+\begin{thebibliography}{00}
+\bibitem{nakamoto} Nakamoto, S. (2008). Bitcoin: A peer-to-peer electronic cash system.
+
+\bibitem{buterin} Buterin, V. (2014). Ethereum: A next-generation smart contract and decentralized application platform.
+
+\bibitem{erc20} Vogelsteller, F., \& Buterin, V. (2015). ERC-20: Token Standard.
+
+\bibitem{medrec} Azaria, A., et al. (2016). MedRec: Using blockchain for medical data access and permission management. IEEE.
+
+\bibitem{health} Kuo, T. T., et al. (2017). Blockchain distributed ledger technologies for biomedical and health care applications. JAMIA, 24(6), 1211-1220.
+
+\bibitem{incentive} Patel, M. S., et al. (2015). Wearable devices as facilitators of health behavior change. JAMA, 313(5), 459-460.
+
+\bibitem{gamification} Deterding, S., et al. (2011). From game design elements to gamefulness. MindTrek Conference.
+
+\bibitem{blockchain} Swan, M. (2015). Blockchain: Blueprint for a new economy. O'Reilly Media.
+
+\end{thebibliography}
+
+\end{document}

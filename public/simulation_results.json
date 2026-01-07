@@ -1,0 +1,2401 @@
+{
+  "metadata": {
+    "simulationDate": "2026-01-07T15:03:51.267Z",
+    "duration": 14,
+    "controlGroupSize": 10,
+    "incentiveGroupSize": 10,
+    "batchSubmissionEnabled": true
+  },
+  "controlGroup": [
+    {
+      "userId": "C001",
+      "group": "control",
+      "behaviorProfile": "morning",
+      "logs": [
+        {
+          "day": 2,
+          "timestamp": "2026-01-02T05:42:25.000Z",
+          "steps": 10037,
+          "water": 2.7,
+          "sleep": 7,
+          "tokensEarned": 0,
+          "isComplete": true,
+          "batchId": "batch_1_0"
+        },
+        {
+          "day": 3,
+          "timestamp": "2026-01-03T06:10:04.000Z",
+          "steps": 8231,
+          "water": 3.1,
+          "sleep": 8.6,
+          "tokensEarned": 0,
+          "isComplete": true,
+          "batchId": "batch_2_1"
+        },
+        {
+          "day": 4,
+          "timestamp": "2026-01-04T06:57:03.000Z",
+          "steps": 9350,
+          "water": 3.4,
+          "sleep": 7.3,
+          "tokensEarned": 0,
+          "isComplete": true,
+          "batchId": "batch_3_2"
+        },
+        {
+          "day": 5,
+          "timestamp": "2026-01-05T06:24:56.000Z",
+          "steps": 9132,
+          "water": 2.8,
+          "sleep": 8,
+          "tokensEarned": 0,
+          "isComplete": true,
+          "batchId": "batch_4_3"
+        },
+        {
+          "day": 6,
+          "timestamp": "2026-01-06T04:34:44.000Z",
+          "steps": 9353,
+          "water": 3.3,
+          "sleep": 7.9,
+          "tokensEarned": 0,
+          "isComplete": true,
+          "batchId": "batch_5_4"
+        },
+        {
+          "day": 7,
+          "timestamp": "2026-01-07T19:22:45.000Z",
+          "steps": 10083,
+          "water": 3.3,
+          "sleep": 7.2,
+          "tokensEarned": 0,
+          "isComplete": true,
+          "batchId": "batch_6_5"
+        },
+        {
+          "day": 8,
+          "timestamp": "2026-01-08T18:43:34.000Z",
+          "steps": 9217,
+          "water": 3.2,
+          "sleep": 7.4,
+          "tokensEarned": 0,
+          "isComplete": true,
+          "batchId": "batch_7_6"
+        },
+        {
+          "day": 10,
+          "timestamp": "2026-01-10T05:54:40.000Z",
+          "steps": 10777,
+          "water": 3.2,
+          "sleep": 8.1,
+          "tokensEarned": 0,
+          "isComplete": true,
+          "batchId": "batch_9_7"
+        },
+        {
+          "day": 11,
+          "timestamp": "2026-01-11T09:36:53.000Z",
+          "steps": 11907,
+          "water": 3.2,
+          "sleep": 8.3,
+          "tokensEarned": 0,
+          "isComplete": true,
+          "batchId": "batch_10_8"
+        },
+        {
+          "day": 14,
+          "timestamp": "2026-01-14T09:18:36.000Z",
+          "steps": 9332,
+          "water": 2.7,
+          "sleep": 8.9,
+          "tokensEarned": 0,
+          "isComplete": true,
+          "batchId": "batch_13_9"
+        }
+      ],
+      "totalTokens": 0,
+      "activeDays": 10,
+      "complianceRate": 71.42857142857143,
+      "batchSubmissions": 10,
+      "partialSubmissions": 0,
+      "batchRate": 100
+    },
+    {
+      "userId": "C002",
+      "group": "control",
+      "behaviorProfile": "evening",
+      "logs": [
+        {
+          "day": 2,
+          "timestamp": "2026-01-02T16:29:12.000Z",
+          "steps": 7202,
+          "water": 2.1,
+          "sleep": 8.1,
+          "tokensEarned": 0,
+          "isComplete": true,
+          "batchId": "batch_1_0"
+        },
+        {
+          "day": 4,
+          "timestamp": "2026-01-04T17:05:04.000Z",
+          "steps": 11150,
+          "water": null,
+          "sleep": 7.1,
+          "tokensEarned": 0,
+          "isComplete": false,
+          "batchId": null
+        },
+        {
+          "day": 5,
+          "timestamp": "2026-01-05T19:43:11.000Z",
+          "steps": 8696,
+          "water": 2.4,
+          "sleep": 6.7,
+          "tokensEarned": 0,
+          "isComplete": true,
+          "batchId": "batch_4_2"
+        },
+        {
+          "day": 7,
+          "timestamp": "2026-01-07T18:59:16.000Z",
+          "steps": 9379,
+          "water": 2.3,
+          "sleep": 6.5,
+          "tokensEarned": 0,
+          "isComplete": true,
+          "batchId": "batch_6_3"
+        },
+        {
+          "day": 8,
+          "timestamp": "2026-01-08T17:21:32.000Z",
+          "steps": 7207,
+          "water": 2.6,
+          "sleep": 7.6,
+          "tokensEarned": 0,
+          "isComplete": true,
+          "batchId": "batch_7_4"
+        },
+        {
+          "day": 9,
+          "timestamp": "2026-01-09T17:21:30.000Z",
+          "steps": 8461,
+          "water": 2.2,
+          "sleep": 7,
+          "tokensEarned": 0,
+          "isComplete": true,
+          "batchId": "batch_8_5"
+        },
+        {
+          "day": 12,
+          "timestamp": "2026-01-12T17:17:37.000Z",
+          "steps": 8682,
+          "water": null,
+          "sleep": 7.8,
+          "tokensEarned": 0,
+          "isComplete": false,
+          "batchId": null
+        },
+        {
+          "day": 14,
+          "timestamp": "2026-01-14T16:04:13.000Z",
+          "steps": 7196,
+          "water": 2.9,
+          "sleep": 7.3,
+          "tokensEarned": 0,
+          "isComplete": true,
+          "batchId": "batch_13_7"
+        }
+      ],
+      "totalTokens": 0,
+      "activeDays": 8,
+      "complianceRate": 57.14285714285714,
+      "batchSubmissions": 6,
+      "partialSubmissions": 2,
+      "batchRate": 75
+    },
+    {
+      "userId": "C003",
+      "group": "control",
+      "behaviorProfile": "mixed",
+      "logs": [
+        {
+          "day": 1,
+          "timestamp": "2026-01-01T06:44:30.000Z",
+          "steps": 11023,
+          "water": 2.2,
+          "sleep": 7.8,
+          "tokensEarned": 0,
+          "isComplete": true,
+          "batchId": "batch_0_0"
+        },
+        {
+          "day": 2,
+          "timestamp": "2026-01-02T19:55:05.000Z",
+          "steps": 11716,
+          "water": 2.6,
+          "sleep": 7.4,
+          "tokensEarned": 0,
+          "isComplete": true,
+          "batchId": "batch_1_1"
+        },
+        {
+          "day": 3,
+          "timestamp": "2026-01-03T05:14:43.000Z",
+          "steps": 9413,
+          "water": 2.8,
+          "sleep": 6.6,
+          "tokensEarned": 0,
+          "isComplete": true,
+          "batchId": "batch_2_2"
+        },
+        {
+          "day": 7,
+          "timestamp": "2026-01-07T06:40:55.000Z",
+          "steps": null,
+          "water": 2.2,
+          "sleep": 6.9,
+          "tokensEarned": 0,
+          "isComplete": false,
+          "batchId": null
+        },
+        {
+          "day": 11,
+          "timestamp": "2026-01-11T05:04:10.000Z",
+          "steps": 9654,
+          "water": 1.9,
+          "sleep": 8.3,
+          "tokensEarned": 0,
+          "isComplete": true,
+          "batchId": "batch_10_4"
+        },
+        {
+          "day": 12,
+          "timestamp": "2026-01-12T09:06:25.000Z",
+          "steps": 9770,
+          "water": 2.3,
+          "sleep": 7.8,
+          "tokensEarned": 0,
+          "isComplete": true,
+          "batchId": "batch_11_5"
+        },
+        {
+          "day": 13,
+          "timestamp": "2026-01-13T06:15:24.000Z",
+          "steps": 11134,
+          "water": 2.1,
+          "sleep": 8.1,
+          "tokensEarned": 0,
+          "isComplete": true,
+          "batchId": "batch_12_6"
+        },
+        {
+          "day": 14,
+          "timestamp": "2026-01-14T04:27:20.000Z",
+          "steps": 10979,
+          "water": 2,
+          "sleep": 6.5,
+          "tokensEarned": 0,
+          "isComplete": true,
+          "batchId": "batch_13_7"
+        }
+      ],
+      "totalTokens": 0,
+      "activeDays": 8,
+      "complianceRate": 57.14285714285714,
+      "batchSubmissions": 7,
+      "partialSubmissions": 1,
+      "batchRate": 87.5
+    },
+    {
+      "userId": "C004",
+      "group": "control",
+      "behaviorProfile": "morning",
+      "logs": [
+        {
+          "day": 1,
+          "timestamp": "2026-01-01T18:30:56.000Z",
+          "steps": 5817,
+          "water": 1.8,
+          "sleep": 6.5,
+          "tokensEarned": 0,
+          "isComplete": true,
+          "batchId": "batch_0_0"
+        },
+        {
+          "day": 3,
+          "timestamp": "2026-01-03T05:54:50.000Z",
+          "steps": 6639,
+          "water": 1.9,
+          "sleep": 6.8,
+          "tokensEarned": 0,
+          "isComplete": true,
+          "batchId": "batch_2_1"
+        },
+        {
+          "day": 6,
+          "timestamp": "2026-01-06T06:24:00.000Z",
+          "steps": 6862,
+          "water": 2.4,
+          "sleep": 7.3,
+          "tokensEarned": 0,
+          "isComplete": true,
+          "batchId": "batch_5_2"
+        },
+        {
+          "day": 7,
+          "timestamp": "2026-01-07T04:05:14.000Z",
+          "steps": 7860,
+          "water": 2,
+          "sleep": 7,
+          "tokensEarned": 0,
+          "isComplete": true,
+          "batchId": "batch_6_3"
+        },
+        {
+          "day": 8,
+          "timestamp": "2026-01-08T05:56:26.000Z",
+          "steps": 7042,
+          "water": 2.4,
+          "sleep": 8.2,
+          "tokensEarned": 0,
+          "isComplete": true,
+          "batchId": "batch_7_4"
+        },
+        {
+          "day": 10,
+          "timestamp": "2026-01-10T05:31:52.000Z",
+          "steps": null,
+          "water": 2.6,
+          "sleep": null,
+          "tokensEarned": 0,
+          "isComplete": false,
+          "batchId": null
+        },
+        {
+          "day": 11,
+          "timestamp": "2026-01-11T06:34:25.000Z",
+          "steps": 9223,
+          "water": 1.7,
+          "sleep": 7.7,
+          "tokensEarned": 0,
+          "isComplete": true,
+          "batchId": "batch_10_6"
+        },
+        {
+          "day": 12,
+          "timestamp": "2026-01-12T17:40:30.000Z",
+          "steps": 6732,
+          "water": 1.8,
+          "sleep": 8,
+          "tokensEarned": 0,
+          "isComplete": true,
+          "batchId": "batch_11_7"
+        },
+        {
+          "day": 13,
+          "timestamp": "2026-01-13T05:58:14.000Z",
+          "steps": 6751,
+          "water": 1.9,
+          "sleep": 6.5,
+          "tokensEarned": 0,
+          "isComplete": true,
+          "batchId": "batch_12_8"
+        }
+      ],
+      "totalTokens": 0,
+      "activeDays": 9,
+      "complianceRate": 64.28571428571429,
+      "batchSubmissions": 8,
+      "partialSubmissions": 1,
+      "batchRate": 88.88888888888889
+    },
+    {
+      "userId": "C005",
+      "group": "control",
+      "behaviorProfile": "mixed",
+      "logs": [
+        {
+          "day": 1,
+          "timestamp": "2026-01-01T04:56:01.000Z",
+          "steps": 11548,
+          "water": 2.9,
+          "sleep": null,
+          "tokensEarned": 0,
+          "isComplete": false,
+          "batchId": null
+        },
+        {
+          "day": 3,
+          "timestamp": "2026-01-03T10:10:24.000Z",
+          "steps": 9585,
+          "water": 2.4,
+          "sleep": 7.1,
+          "tokensEarned": 0,
+          "isComplete": true,
+          "batchId": "batch_2_1"
+        },
+        {
+          "day": 7,
+          "timestamp": "2026-01-07T10:39:58.000Z",
+          "steps": 9398,
+          "water": 2.7,
+          "sleep": 7.2,
+          "tokensEarned": 0,
+          "isComplete": true,
+          "batchId": "batch_6_2"
+        },
+        {
+          "day": 10,
+          "timestamp": "2026-01-10T04:52:55.000Z",
+          "steps": 11797,
+          "water": 2.3,
+          "sleep": 8.4,
+          "tokensEarned": 0,
+          "isComplete": true,
+          "batchId": "batch_9_3"
+        },
+        {
+          "day": 11,
+          "timestamp": "2026-01-11T09:50:12.000Z",
+          "steps": 9919,
+          "water": null,
+          "sleep": null,
+          "tokensEarned": 0,
+          "isComplete": false,
+          "batchId": null
+        },
+        {
+          "day": 14,
+          "timestamp": "2026-01-14T05:54:27.000Z",
+          "steps": 9575,
+          "water": 2.6,
+          "sleep": 7.2,
+          "tokensEarned": 0,
+          "isComplete": true,
+          "batchId": "batch_13_5"
+        }
+      ],
+      "totalTokens": 0,
+      "activeDays": 6,
+      "complianceRate": 42.857142857142854,
+      "batchSubmissions": 4,
+      "partialSubmissions": 2,
+      "batchRate": 66.66666666666666
+    },
+    {
+      "userId": "C006",
+      "group": "control",
+      "behaviorProfile": "morning",
+      "logs": [
+        {
+          "day": 1,
+          "timestamp": "2026-01-01T04:19:50.000Z",
+          "steps": 8536,
+          "water": 2.8,
+          "sleep": 6.8,
+          "tokensEarned": 0,
+          "isComplete": true,
+          "batchId": "batch_0_0"
+        },
+        {
+          "day": 2,
+          "timestamp": "2026-01-02T05:21:36.000Z",
+          "steps": 11458,
+          "water": 2.8,
+          "sleep": 7.3,
+          "tokensEarned": 0,
+          "isComplete": true,
+          "batchId": "batch_1_1"
+        },
+        {
+          "day": 3,
+          "timestamp": "2026-01-03T09:12:42.000Z",
+          "steps": null,
+          "water": 2.7,
+          "sleep": 7,
+          "tokensEarned": 0,
+          "isComplete": false,
+          "batchId": null
+        },
+        {
+          "day": 4,
+          "timestamp": "2026-01-04T04:41:54.000Z",
+          "steps": 8869,
+          "water": 3,
+          "sleep": 7.6,
+          "tokensEarned": 0,
+          "isComplete": true,
+          "batchId": "batch_3_3"
+        },
+        {
+          "day": 5,
+          "timestamp": "2026-01-05T06:15:17.000Z",
+          "steps": 9548,
+          "water": 3.1,
+          "sleep": 5.9,
+          "tokensEarned": 0,
+          "isComplete": true,
+          "batchId": "batch_4_4"
+        },
+        {
+          "day": 7,
+          "timestamp": "2026-01-07T09:47:06.000Z",
+          "steps": 8604,
+          "water": 2.7,
+          "sleep": 6.9,
+          "tokensEarned": 0,
+          "isComplete": true,
+          "batchId": "batch_6_5"
+        },
+        {
+          "day": 14,
+          "timestamp": "2026-01-14T06:24:25.000Z",
+          "steps": 10629,
+          "water": 3.2,
+          "sleep": 7.6,
+          "tokensEarned": 0,
+          "isComplete": true,
+          "batchId": "batch_13_6"
+        }
+      ],
+      "totalTokens": 0,
+      "activeDays": 7,
+      "complianceRate": 50,
+      "batchSubmissions": 6,
+      "partialSubmissions": 1,
+      "batchRate": 85.71428571428571
+    },
+    {
+      "userId": "C007",
+      "group": "control",
+      "behaviorProfile": "evening",
+      "logs": [
+        {
+          "day": 1,
+          "timestamp": "2026-01-01T19:07:15.000Z",
+          "steps": null,
+          "water": null,
+          "sleep": 7.2,
+          "tokensEarned": 0,
+          "isComplete": false,
+          "batchId": null
+        },
+        {
+          "day": 8,
+          "timestamp": "2026-01-08T18:22:44.000Z",
+          "steps": 9938,
+          "water": 2.9,
+          "sleep": 6.2,
+          "tokensEarned": 0,
+          "isComplete": true,
+          "batchId": "batch_7_1"
+        },
+        {
+          "day": 10,
+          "timestamp": "2026-01-10T18:45:06.000Z",
+          "steps": 11833,
+          "water": 2.8,
+          "sleep": 7.4,
+          "tokensEarned": 0,
+          "isComplete": true,
+          "batchId": "batch_9_2"
+        },
+        {
+          "day": 12,
+          "timestamp": "2026-01-12T05:22:29.000Z",
+          "steps": 12339,
+          "water": 2.4,
+          "sleep": 6.3,
+          "tokensEarned": 0,
+          "isComplete": true,
+          "batchId": "batch_11_3"
+        },
+        {
+          "day": 13,
+          "timestamp": "2026-01-13T17:04:43.000Z",
+          "steps": 10438,
+          "water": 2.8,
+          "sleep": 6.8,
+          "tokensEarned": 0,
+          "isComplete": true,
+          "batchId": "batch_12_4"
+        }
+      ],
+      "totalTokens": 0,
+      "activeDays": 5,
+      "complianceRate": 35.714285714285715,
+      "batchSubmissions": 4,
+      "partialSubmissions": 1,
+      "batchRate": 80
+    },
+    {
+      "userId": "C008",
+      "group": "control",
+      "behaviorProfile": "evening",
+      "logs": [
+        {
+          "day": 1,
+          "timestamp": "2026-01-01T17:33:31.000Z",
+          "steps": 5789,
+          "water": 2.8,
+          "sleep": null,
+          "tokensEarned": 0,
+          "isComplete": false,
+          "batchId": null
+        },
+        {
+          "day": 2,
+          "timestamp": "2026-01-02T04:12:26.000Z",
+          "steps": 6697,
+          "water": 3.1,
+          "sleep": 6.9,
+          "tokensEarned": 0,
+          "isComplete": true,
+          "batchId": "batch_1_1"
+        },
+        {
+          "day": 4,
+          "timestamp": "2026-01-04T18:24:16.000Z",
+          "steps": 5355,
+          "water": 3,
+          "sleep": 7.6,
+          "tokensEarned": 0,
+          "isComplete": true,
+          "batchId": "batch_3_2"
+        },
+        {
+          "day": 5,
+          "timestamp": "2026-01-05T16:52:01.000Z",
+          "steps": null,
+          "water": null,
+          "sleep": 8.3,
+          "tokensEarned": 0,
+          "isComplete": false,
+          "batchId": null
+        },
+        {
+          "day": 9,
+          "timestamp": "2026-01-09T05:48:55.000Z",
+          "steps": null,
+          "water": 2.7,
+          "sleep": null,
+          "tokensEarned": 0,
+          "isComplete": false,
+          "batchId": null
+        },
+        {
+          "day": 10,
+          "timestamp": "2026-01-10T17:01:30.000Z",
+          "steps": 7586,
+          "water": null,
+          "sleep": null,
+          "tokensEarned": 0,
+          "isComplete": false,
+          "batchId": null
+        },
+        {
+          "day": 13,
+          "timestamp": "2026-01-13T16:59:37.000Z",
+          "steps": 6629,
+          "water": 2.2,
+          "sleep": 6.9,
+          "tokensEarned": 0,
+          "isComplete": true,
+          "batchId": "batch_12_6"
+        },
+        {
+          "day": 14,
+          "timestamp": "2026-01-14T18:42:36.000Z",
+          "steps": 9014,
+          "water": null,
+          "sleep": null,
+          "tokensEarned": 0,
+          "isComplete": false,
+          "batchId": null
+        }
+      ],
+      "totalTokens": 0,
+      "activeDays": 8,
+      "complianceRate": 57.14285714285714,
+      "batchSubmissions": 3,
+      "partialSubmissions": 5,
+      "batchRate": 37.5
+    },
+    {
+      "userId": "C009",
+      "group": "control",
+      "behaviorProfile": "morning",
+      "logs": [
+        {
+          "day": 1,
+          "timestamp": "2026-01-01T04:24:32.000Z",
+          "steps": null,
+          "water": null,
+          "sleep": 7.7,
+          "tokensEarned": 0,
+          "isComplete": false,
+          "batchId": null
+        },
+        {
+          "day": 2,
+          "timestamp": "2026-01-02T05:42:20.000Z",
+          "steps": 5806,
+          "water": 3,
+          "sleep": 5.9,
+          "tokensEarned": 0,
+          "isComplete": true,
+          "batchId": "batch_1_1"
+        },
+        {
+          "day": 3,
+          "timestamp": "2026-01-03T05:32:07.000Z",
+          "steps": 6170,
+          "water": 2.5,
+          "sleep": 7.7,
+          "tokensEarned": 0,
+          "isComplete": true,
+          "batchId": "batch_2_2"
+        },
+        {
+          "day": 4,
+          "timestamp": "2026-01-04T19:59:50.000Z",
+          "steps": 9273,
+          "water": 2.8,
+          "sleep": 6.5,
+          "tokensEarned": 0,
+          "isComplete": true,
+          "batchId": "batch_3_3"
+        },
+        {
+          "day": 6,
+          "timestamp": "2026-01-06T04:19:47.000Z",
+          "steps": 8438,
+          "water": 3.2,
+          "sleep": null,
+          "tokensEarned": 0,
+          "isComplete": false,
+          "batchId": null
+        },
+        {
+          "day": 7,
+          "timestamp": "2026-01-07T05:41:21.000Z",
+          "steps": 7140,
+          "water": 2.8,
+          "sleep": 6.6,
+          "tokensEarned": 0,
+          "isComplete": true,
+          "batchId": "batch_6_5"
+        },
+        {
+          "day": 8,
+          "timestamp": "2026-01-08T04:02:34.000Z",
+          "steps": 5889,
+          "water": 3.1,
+          "sleep": 6,
+          "tokensEarned": 0,
+          "isComplete": true,
+          "batchId": "batch_7_6"
+        },
+        {
+          "day": 10,
+          "timestamp": "2026-01-10T04:10:13.000Z",
+          "steps": 8842,
+          "water": 2.8,
+          "sleep": 6.9,
+          "tokensEarned": 0,
+          "isComplete": true,
+          "batchId": "batch_9_7"
+        },
+        {
+          "day": 11,
+          "timestamp": "2026-01-11T16:22:20.000Z",
+          "steps": 7374,
+          "water": 2.8,
+          "sleep": 6.4,
+          "tokensEarned": 0,
+          "isComplete": true,
+          "batchId": "batch_10_8"
+        }
+      ],
+      "totalTokens": 0,
+      "activeDays": 9,
+      "complianceRate": 64.28571428571429,
+      "batchSubmissions": 7,
+      "partialSubmissions": 2,
+      "batchRate": 77.77777777777779
+    },
+    {
+      "userId": "C010",
+      "group": "control",
+      "behaviorProfile": "morning",
+      "logs": [
+        {
+          "day": 1,
+          "timestamp": "2026-01-01T04:22:31.000Z",
+          "steps": 12020,
+          "water": 1.7,
+          "sleep": 7.8,
+          "tokensEarned": 0,
+          "isComplete": true,
+          "batchId": "batch_0_0"
+        },
+        {
+          "day": 4,
+          "timestamp": "2026-01-04T06:45:05.000Z",
+          "steps": 10619,
+          "water": 1.7,
+          "sleep": 6.4,
+          "tokensEarned": 0,
+          "isComplete": true,
+          "batchId": "batch_3_1"
+        },
+        {
+          "day": 5,
+          "timestamp": "2026-01-05T10:03:51.000Z",
+          "steps": 10713,
+          "water": 2.1,
+          "sleep": null,
+          "tokensEarned": 0,
+          "isComplete": false,
+          "batchId": null
+        },
+        {
+          "day": 6,
+          "timestamp": "2026-01-06T05:57:44.000Z",
+          "steps": 11798,
+          "water": 1.9,
+          "sleep": null,
+          "tokensEarned": 0,
+          "isComplete": false,
+          "batchId": null
+        },
+        {
+          "day": 8,
+          "timestamp": "2026-01-08T04:02:58.000Z",
+          "steps": 11982,
+          "water": 1.9,
+          "sleep": 7.4,
+          "tokensEarned": 0,
+          "isComplete": true,
+          "batchId": "batch_7_4"
+        },
+        {
+          "day": 10,
+          "timestamp": "2026-01-10T05:06:26.000Z",
+          "steps": 12271,
+          "water": 2.5,
+          "sleep": null,
+          "tokensEarned": 0,
+          "isComplete": false,
+          "batchId": null
+        },
+        {
+          "day": 11,
+          "timestamp": "2026-01-11T17:24:35.000Z",
+          "steps": null,
+          "water": null,
+          "sleep": 7,
+          "tokensEarned": 0,
+          "isComplete": false,
+          "batchId": null
+        }
+      ],
+      "totalTokens": 0,
+      "activeDays": 7,
+      "complianceRate": 50,
+      "batchSubmissions": 3,
+      "partialSubmissions": 4,
+      "batchRate": 42.857142857142854
+    }
+  ],
+  "incentiveGroup": [
+    {
+      "userId": "I001",
+      "group": "incentive",
+      "behaviorProfile": "evening",
+      "logs": [
+        {
+          "day": 1,
+          "timestamp": "2026-01-01T18:03:23.000Z",
+          "steps": 8230,
+          "water": 2.4,
+          "sleep": 7.3,
+          "tokensEarned": 7.5,
+          "isComplete": true,
+          "batchId": "batch_0_0"
+        },
+        {
+          "day": 2,
+          "timestamp": "2026-01-02T16:56:32.000Z",
+          "steps": 9451,
+          "water": 2.5,
+          "sleep": 7.3,
+          "tokensEarned": 7.5,
+          "isComplete": true,
+          "batchId": "batch_1_1"
+        },
+        {
+          "day": 3,
+          "timestamp": "2026-01-03T18:46:07.000Z",
+          "steps": 10200,
+          "water": null,
+          "sleep": 7,
+          "tokensEarned": 2.5,
+          "isComplete": false,
+          "batchId": null
+        },
+        {
+          "day": 5,
+          "timestamp": "2026-01-05T16:15:49.000Z",
+          "steps": 9695,
+          "water": 2.3,
+          "sleep": 7.1,
+          "tokensEarned": 7.5,
+          "isComplete": true,
+          "batchId": "batch_4_3"
+        },
+        {
+          "day": 6,
+          "timestamp": "2026-01-06T19:38:13.000Z",
+          "steps": 8829,
+          "water": 2.8,
+          "sleep": 7.3,
+          "tokensEarned": 7.5,
+          "isComplete": true,
+          "batchId": "batch_5_4"
+        },
+        {
+          "day": 7,
+          "timestamp": "2026-01-07T09:50:02.000Z",
+          "steps": 8367,
+          "water": null,
+          "sleep": null,
+          "tokensEarned": 2.5,
+          "isComplete": false,
+          "batchId": null
+        },
+        {
+          "day": 8,
+          "timestamp": "2026-01-08T17:05:34.000Z",
+          "steps": 7085,
+          "water": 2.3,
+          "sleep": 7.3,
+          "tokensEarned": 7.5,
+          "isComplete": true,
+          "batchId": "batch_7_6"
+        },
+        {
+          "day": 9,
+          "timestamp": "2026-01-09T16:56:19.000Z",
+          "steps": 9520,
+          "water": 2.9,
+          "sleep": null,
+          "tokensEarned": 2.5,
+          "isComplete": false,
+          "batchId": null
+        },
+        {
+          "day": 10,
+          "timestamp": "2026-01-10T18:39:10.000Z",
+          "steps": 8969,
+          "water": 2.2,
+          "sleep": 6.4,
+          "tokensEarned": 7.5,
+          "isComplete": true,
+          "batchId": "batch_9_8"
+        },
+        {
+          "day": 11,
+          "timestamp": "2026-01-11T18:24:34.000Z",
+          "steps": 6886,
+          "water": 2.2,
+          "sleep": 6.1,
+          "tokensEarned": 7.5,
+          "isComplete": true,
+          "batchId": "batch_10_9"
+        },
+        {
+          "day": 12,
+          "timestamp": "2026-01-12T19:42:53.000Z",
+          "steps": 9152,
+          "water": 2.7,
+          "sleep": 7.3,
+          "tokensEarned": 7.5,
+          "isComplete": true,
+          "batchId": "batch_11_10"
+        },
+        {
+          "day": 14,
+          "timestamp": "2026-01-14T10:35:38.000Z",
+          "steps": 9315,
+          "water": 2.6,
+          "sleep": 6.8,
+          "tokensEarned": 7.5,
+          "isComplete": true,
+          "batchId": "batch_13_11"
+        }
+      ],
+      "totalTokens": 75,
+      "activeDays": 12,
+      "complianceRate": 85.71428571428571,
+      "batchSubmissions": 9,
+      "partialSubmissions": 3,
+      "batchRate": 75
+    },
+    {
+      "userId": "I002",
+      "group": "incentive",
+      "behaviorProfile": "morning",
+      "logs": [
+        {
+          "day": 2,
+          "timestamp": "2026-01-02T04:18:43.000Z",
+          "steps": 6225,
+          "water": 2.5,
+          "sleep": 8.4,
+          "tokensEarned": 7.5,
+          "isComplete": true,
+          "batchId": "batch_1_0"
+        },
+        {
+          "day": 3,
+          "timestamp": "2026-01-03T05:04:56.000Z",
+          "steps": 6230,
+          "water": 3.1,
+          "sleep": 6.8,
+          "tokensEarned": 7.5,
+          "isComplete": true,
+          "batchId": "batch_2_1"
+        },
+        {
+          "day": 4,
+          "timestamp": "2026-01-04T04:56:23.000Z",
+          "steps": null,
+          "water": null,
+          "sleep": 7.1,
+          "tokensEarned": 2.5,
+          "isComplete": false,
+          "batchId": null
+        },
+        {
+          "day": 5,
+          "timestamp": "2026-01-05T10:00:12.000Z",
+          "steps": 8439,
+          "water": 3.2,
+          "sleep": 7.9,
+          "tokensEarned": 7.5,
+          "isComplete": true,
+          "batchId": "batch_4_3"
+        },
+        {
+          "day": 6,
+          "timestamp": "2026-01-06T09:09:27.000Z",
+          "steps": 8718,
+          "water": 2.6,
+          "sleep": 7.8,
+          "tokensEarned": 7.5,
+          "isComplete": true,
+          "batchId": "batch_5_4"
+        },
+        {
+          "day": 7,
+          "timestamp": "2026-01-07T06:29:20.000Z",
+          "steps": 8519,
+          "water": 2.6,
+          "sleep": 8.3,
+          "tokensEarned": 7.5,
+          "isComplete": true,
+          "batchId": "batch_6_5"
+        },
+        {
+          "day": 8,
+          "timestamp": "2026-01-08T18:05:19.000Z",
+          "steps": 8190,
+          "water": 2.6,
+          "sleep": 7.9,
+          "tokensEarned": 7.5,
+          "isComplete": true,
+          "batchId": "batch_7_6"
+        },
+        {
+          "day": 9,
+          "timestamp": "2026-01-09T17:16:20.000Z",
+          "steps": 8483,
+          "water": 2.7,
+          "sleep": 7.9,
+          "tokensEarned": 7.5,
+          "isComplete": true,
+          "batchId": "batch_8_7"
+        },
+        {
+          "day": 10,
+          "timestamp": "2026-01-10T10:36:46.000Z",
+          "steps": 8013,
+          "water": 2.5,
+          "sleep": 6.9,
+          "tokensEarned": 7.5,
+          "isComplete": true,
+          "batchId": "batch_9_8"
+        },
+        {
+          "day": 11,
+          "timestamp": "2026-01-11T05:59:16.000Z",
+          "steps": 6160,
+          "water": 2.4,
+          "sleep": 8.3,
+          "tokensEarned": 7.5,
+          "isComplete": true,
+          "batchId": "batch_10_9"
+        },
+        {
+          "day": 12,
+          "timestamp": "2026-01-12T05:35:35.000Z",
+          "steps": 7417,
+          "water": 2.5,
+          "sleep": 8.2,
+          "tokensEarned": 7.5,
+          "isComplete": true,
+          "batchId": "batch_11_10"
+        },
+        {
+          "day": 13,
+          "timestamp": "2026-01-13T06:39:56.000Z",
+          "steps": 6761,
+          "water": 2.8,
+          "sleep": 8.5,
+          "tokensEarned": 7.5,
+          "isComplete": true,
+          "batchId": "batch_12_11"
+        },
+        {
+          "day": 14,
+          "timestamp": "2026-01-14T04:41:12.000Z",
+          "steps": null,
+          "water": 2.8,
+          "sleep": 7.4,
+          "tokensEarned": 2.5,
+          "isComplete": false,
+          "batchId": null
+        }
+      ],
+      "totalTokens": 87.5,
+      "activeDays": 13,
+      "complianceRate": 92.85714285714286,
+      "batchSubmissions": 11,
+      "partialSubmissions": 2,
+      "batchRate": 84.61538461538461
+    },
+    {
+      "userId": "I003",
+      "group": "incentive",
+      "behaviorProfile": "mixed",
+      "logs": [
+        {
+          "day": 1,
+          "timestamp": "2026-01-01T16:26:37.000Z",
+          "steps": null,
+          "water": 2.4,
+          "sleep": null,
+          "tokensEarned": 2.5,
+          "isComplete": false,
+          "batchId": null
+        },
+        {
+          "day": 3,
+          "timestamp": "2026-01-03T19:32:09.000Z",
+          "steps": 8792,
+          "water": 2.3,
+          "sleep": 7.4,
+          "tokensEarned": 7.5,
+          "isComplete": true,
+          "batchId": "batch_2_1"
+        },
+        {
+          "day": 4,
+          "timestamp": "2026-01-04T18:57:49.000Z",
+          "steps": 8394,
+          "water": 2.6,
+          "sleep": 6.5,
+          "tokensEarned": 7.5,
+          "isComplete": true,
+          "batchId": "batch_3_2"
+        },
+        {
+          "day": 5,
+          "timestamp": "2026-01-05T04:44:02.000Z",
+          "steps": 7783,
+          "water": 2,
+          "sleep": 6.6,
+          "tokensEarned": 7.5,
+          "isComplete": true,
+          "batchId": "batch_4_3"
+        },
+        {
+          "day": 6,
+          "timestamp": "2026-01-06T04:30:12.000Z",
+          "steps": 6163,
+          "water": 2.6,
+          "sleep": 6.9,
+          "tokensEarned": 7.5,
+          "isComplete": true,
+          "batchId": "batch_5_4"
+        },
+        {
+          "day": 7,
+          "timestamp": "2026-01-07T19:55:15.000Z",
+          "steps": 6893,
+          "water": 2.3,
+          "sleep": 7.7,
+          "tokensEarned": 7.5,
+          "isComplete": true,
+          "batchId": "batch_6_5"
+        },
+        {
+          "day": 8,
+          "timestamp": "2026-01-08T05:06:53.000Z",
+          "steps": 8969,
+          "water": 2.4,
+          "sleep": 6.3,
+          "tokensEarned": 7.5,
+          "isComplete": true,
+          "batchId": "batch_7_6"
+        },
+        {
+          "day": 10,
+          "timestamp": "2026-01-10T05:43:15.000Z",
+          "steps": 8890,
+          "water": 2.7,
+          "sleep": 6.8,
+          "tokensEarned": 7.5,
+          "isComplete": true,
+          "batchId": "batch_9_7"
+        },
+        {
+          "day": 11,
+          "timestamp": "2026-01-11T04:35:01.000Z",
+          "steps": 7581,
+          "water": 2.9,
+          "sleep": 6.4,
+          "tokensEarned": 7.5,
+          "isComplete": true,
+          "batchId": "batch_10_8"
+        },
+        {
+          "day": 12,
+          "timestamp": "2026-01-12T16:11:25.000Z",
+          "steps": 8905,
+          "water": 2,
+          "sleep": 7.8,
+          "tokensEarned": 7.5,
+          "isComplete": true,
+          "batchId": "batch_11_9"
+        },
+        {
+          "day": 13,
+          "timestamp": "2026-01-13T04:39:14.000Z",
+          "steps": 9272,
+          "water": null,
+          "sleep": null,
+          "tokensEarned": 2.5,
+          "isComplete": false,
+          "batchId": null
+        },
+        {
+          "day": 14,
+          "timestamp": "2026-01-14T06:50:44.000Z",
+          "steps": 7166,
+          "water": 2.3,
+          "sleep": 6.7,
+          "tokensEarned": 7.5,
+          "isComplete": true,
+          "batchId": "batch_13_11"
+        }
+      ],
+      "totalTokens": 80,
+      "activeDays": 12,
+      "complianceRate": 85.71428571428571,
+      "batchSubmissions": 10,
+      "partialSubmissions": 2,
+      "batchRate": 83.33333333333334
+    },
+    {
+      "userId": "I004",
+      "group": "incentive",
+      "behaviorProfile": "mixed",
+      "logs": [
+        {
+          "day": 1,
+          "timestamp": "2026-01-01T19:12:50.000Z",
+          "steps": 11605,
+          "water": 3,
+          "sleep": 7.2,
+          "tokensEarned": 7.5,
+          "isComplete": true,
+          "batchId": "batch_0_0"
+        },
+        {
+          "day": 2,
+          "timestamp": "2026-01-02T19:48:03.000Z",
+          "steps": 11866,
+          "water": 2.7,
+          "sleep": null,
+          "tokensEarned": 2.5,
+          "isComplete": false,
+          "batchId": null
+        },
+        {
+          "day": 3,
+          "timestamp": "2026-01-03T04:37:53.000Z",
+          "steps": 10119,
+          "water": 2.5,
+          "sleep": 7.6,
+          "tokensEarned": 7.5,
+          "isComplete": true,
+          "batchId": "batch_2_2"
+        },
+        {
+          "day": 4,
+          "timestamp": "2026-01-04T17:00:45.000Z",
+          "steps": 9336,
+          "water": 2.5,
+          "sleep": 6.3,
+          "tokensEarned": 7.5,
+          "isComplete": true,
+          "batchId": "batch_3_3"
+        },
+        {
+          "day": 5,
+          "timestamp": "2026-01-05T17:58:24.000Z",
+          "steps": 10076,
+          "water": 3.1,
+          "sleep": 6.4,
+          "tokensEarned": 7.5,
+          "isComplete": true,
+          "batchId": "batch_4_4"
+        },
+        {
+          "day": 6,
+          "timestamp": "2026-01-06T19:44:44.000Z",
+          "steps": 12658,
+          "water": 3,
+          "sleep": 6.2,
+          "tokensEarned": 7.5,
+          "isComplete": true,
+          "batchId": "batch_5_5"
+        },
+        {
+          "day": 7,
+          "timestamp": "2026-01-07T10:33:44.000Z",
+          "steps": 10766,
+          "water": 2.7,
+          "sleep": 6.2,
+          "tokensEarned": 7.5,
+          "isComplete": true,
+          "batchId": "batch_6_6"
+        },
+        {
+          "day": 8,
+          "timestamp": "2026-01-08T06:11:02.000Z",
+          "steps": 10541,
+          "water": 2.6,
+          "sleep": 6.3,
+          "tokensEarned": 7.5,
+          "isComplete": true,
+          "batchId": "batch_7_7"
+        },
+        {
+          "day": 9,
+          "timestamp": "2026-01-09T17:46:19.000Z",
+          "steps": 12230,
+          "water": 2.7,
+          "sleep": 6.8,
+          "tokensEarned": 7.5,
+          "isComplete": true,
+          "batchId": "batch_8_8"
+        },
+        {
+          "day": 10,
+          "timestamp": "2026-01-10T10:04:15.000Z",
+          "steps": 12497,
+          "water": 2.3,
+          "sleep": 7.3,
+          "tokensEarned": 7.5,
+          "isComplete": true,
+          "batchId": "batch_9_9"
+        },
+        {
+          "day": 11,
+          "timestamp": "2026-01-11T16:12:29.000Z",
+          "steps": 11942,
+          "water": 2.8,
+          "sleep": 7.7,
+          "tokensEarned": 7.5,
+          "isComplete": true,
+          "batchId": "batch_10_10"
+        },
+        {
+          "day": 12,
+          "timestamp": "2026-01-12T04:12:32.000Z",
+          "steps": 9830,
+          "water": 2.4,
+          "sleep": null,
+          "tokensEarned": 2.5,
+          "isComplete": false,
+          "batchId": null
+        },
+        {
+          "day": 13,
+          "timestamp": "2026-01-13T16:05:53.000Z",
+          "steps": null,
+          "water": null,
+          "sleep": 6.1,
+          "tokensEarned": 2.5,
+          "isComplete": false,
+          "batchId": null
+        },
+        {
+          "day": 14,
+          "timestamp": "2026-01-14T06:29:55.000Z",
+          "steps": null,
+          "water": null,
+          "sleep": 6.9,
+          "tokensEarned": 2.5,
+          "isComplete": false,
+          "batchId": null
+        }
+      ],
+      "totalTokens": 85,
+      "activeDays": 14,
+      "complianceRate": 100,
+      "batchSubmissions": 10,
+      "partialSubmissions": 4,
+      "batchRate": 71.42857142857143
+    },
+    {
+      "userId": "I005",
+      "group": "incentive",
+      "behaviorProfile": "evening",
+      "logs": [
+        {
+          "day": 1,
+          "timestamp": "2026-01-01T18:40:49.000Z",
+          "steps": 10217,
+          "water": 2.4,
+          "sleep": 7.8,
+          "tokensEarned": 7.5,
+          "isComplete": true,
+          "batchId": "batch_0_0"
+        },
+        {
+          "day": 2,
+          "timestamp": "2026-01-02T17:22:43.000Z",
+          "steps": 10776,
+          "water": 2.2,
+          "sleep": 8,
+          "tokensEarned": 7.5,
+          "isComplete": true,
+          "batchId": "batch_1_1"
+        },
+        {
+          "day": 3,
+          "timestamp": "2026-01-03T04:59:48.000Z",
+          "steps": 8948,
+          "water": 2.1,
+          "sleep": 7,
+          "tokensEarned": 7.5,
+          "isComplete": true,
+          "batchId": "batch_2_2"
+        },
+        {
+          "day": 4,
+          "timestamp": "2026-01-04T16:04:35.000Z",
+          "steps": 10229,
+          "water": 2.7,
+          "sleep": 7.4,
+          "tokensEarned": 7.5,
+          "isComplete": true,
+          "batchId": "batch_3_3"
+        },
+        {
+          "day": 5,
+          "timestamp": "2026-01-05T17:31:38.000Z",
+          "steps": 8180,
+          "water": 2.2,
+          "sleep": 6.4,
+          "tokensEarned": 7.5,
+          "isComplete": true,
+          "batchId": "batch_4_4"
+        },
+        {
+          "day": 6,
+          "timestamp": "2026-01-06T16:57:10.000Z",
+          "steps": 8050,
+          "water": 2.3,
+          "sleep": 7.1,
+          "tokensEarned": 7.5,
+          "isComplete": true,
+          "batchId": "batch_5_5"
+        },
+        {
+          "day": 7,
+          "timestamp": "2026-01-07T19:24:32.000Z",
+          "steps": 8553,
+          "water": 2.5,
+          "sleep": 7.5,
+          "tokensEarned": 7.5,
+          "isComplete": true,
+          "batchId": "batch_6_6"
+        },
+        {
+          "day": 8,
+          "timestamp": "2026-01-08T16:09:32.000Z",
+          "steps": 8401,
+          "water": 2.2,
+          "sleep": 6.3,
+          "tokensEarned": 7.5,
+          "isComplete": true,
+          "batchId": "batch_7_7"
+        },
+        {
+          "day": 9,
+          "timestamp": "2026-01-09T06:20:13.000Z",
+          "steps": 8058,
+          "water": 2,
+          "sleep": null,
+          "tokensEarned": 2.5,
+          "isComplete": false,
+          "batchId": null
+        },
+        {
+          "day": 10,
+          "timestamp": "2026-01-10T19:56:25.000Z",
+          "steps": 10879,
+          "water": 2.1,
+          "sleep": 7.7,
+          "tokensEarned": 7.5,
+          "isComplete": true,
+          "batchId": "batch_9_9"
+        },
+        {
+          "day": 11,
+          "timestamp": "2026-01-11T17:23:27.000Z",
+          "steps": null,
+          "water": 2.9,
+          "sleep": 6.7,
+          "tokensEarned": 2.5,
+          "isComplete": false,
+          "batchId": null
+        },
+        {
+          "day": 13,
+          "timestamp": "2026-01-13T18:46:29.000Z",
+          "steps": 10098,
+          "water": 2.7,
+          "sleep": 7.4,
+          "tokensEarned": 7.5,
+          "isComplete": true,
+          "batchId": "batch_12_11"
+        },
+        {
+          "day": 14,
+          "timestamp": "2026-01-14T16:16:40.000Z",
+          "steps": 8835,
+          "water": 2.1,
+          "sleep": null,
+          "tokensEarned": 2.5,
+          "isComplete": false,
+          "batchId": null
+        }
+      ],
+      "totalTokens": 82.5,
+      "activeDays": 13,
+      "complianceRate": 92.85714285714286,
+      "batchSubmissions": 10,
+      "partialSubmissions": 3,
+      "batchRate": 76.92307692307693
+    },
+    {
+      "userId": "I006",
+      "group": "incentive",
+      "behaviorProfile": "mixed",
+      "logs": [
+        {
+          "day": 1,
+          "timestamp": "2026-01-01T10:42:26.000Z",
+          "steps": 8516,
+          "water": 2.7,
+          "sleep": 7,
+          "tokensEarned": 7.5,
+          "isComplete": true,
+          "batchId": "batch_0_0"
+        },
+        {
+          "day": 2,
+          "timestamp": "2026-01-02T10:19:52.000Z",
+          "steps": 8125,
+          "water": null,
+          "sleep": null,
+          "tokensEarned": 2.5,
+          "isComplete": false,
+          "batchId": null
+        },
+        {
+          "day": 3,
+          "timestamp": "2026-01-03T16:25:33.000Z",
+          "steps": 9366,
+          "water": 1.8,
+          "sleep": 7.4,
+          "tokensEarned": 7.5,
+          "isComplete": true,
+          "batchId": "batch_2_2"
+        },
+        {
+          "day": 4,
+          "timestamp": "2026-01-04T04:02:38.000Z",
+          "steps": 8838,
+          "water": 2.4,
+          "sleep": 7.5,
+          "tokensEarned": 7.5,
+          "isComplete": true,
+          "batchId": "batch_3_3"
+        },
+        {
+          "day": 5,
+          "timestamp": "2026-01-05T10:51:37.000Z",
+          "steps": 7158,
+          "water": 2.7,
+          "sleep": 6.9,
+          "tokensEarned": 7.5,
+          "isComplete": true,
+          "batchId": "batch_4_4"
+        },
+        {
+          "day": 7,
+          "timestamp": "2026-01-07T04:34:27.000Z",
+          "steps": 8908,
+          "water": 2.1,
+          "sleep": 7.8,
+          "tokensEarned": 7.5,
+          "isComplete": true,
+          "batchId": "batch_6_5"
+        },
+        {
+          "day": 8,
+          "timestamp": "2026-01-08T09:55:32.000Z",
+          "steps": 8721,
+          "water": 2.3,
+          "sleep": 7.9,
+          "tokensEarned": 7.5,
+          "isComplete": true,
+          "batchId": "batch_7_6"
+        },
+        {
+          "day": 9,
+          "timestamp": "2026-01-09T04:57:06.000Z",
+          "steps": 5793,
+          "water": 2.2,
+          "sleep": 6.3,
+          "tokensEarned": 7.5,
+          "isComplete": true,
+          "batchId": "batch_8_7"
+        },
+        {
+          "day": 10,
+          "timestamp": "2026-01-10T09:36:42.000Z",
+          "steps": null,
+          "water": 2,
+          "sleep": null,
+          "tokensEarned": 2.5,
+          "isComplete": false,
+          "batchId": null
+        },
+        {
+          "day": 11,
+          "timestamp": "2026-01-11T19:18:56.000Z",
+          "steps": 6285,
+          "water": 2,
+          "sleep": 7.7,
+          "tokensEarned": 7.5,
+          "isComplete": true,
+          "batchId": "batch_10_9"
+        },
+        {
+          "day": 12,
+          "timestamp": "2026-01-12T19:45:08.000Z",
+          "steps": 7225,
+          "water": 2.3,
+          "sleep": null,
+          "tokensEarned": 2.5,
+          "isComplete": false,
+          "batchId": null
+        },
+        {
+          "day": 13,
+          "timestamp": "2026-01-13T18:35:41.000Z",
+          "steps": 6333,
+          "water": 2,
+          "sleep": 7.4,
+          "tokensEarned": 7.5,
+          "isComplete": true,
+          "batchId": "batch_12_11"
+        },
+        {
+          "day": 14,
+          "timestamp": "2026-01-14T16:49:20.000Z",
+          "steps": 6981,
+          "water": 2.7,
+          "sleep": 7.7,
+          "tokensEarned": 7.5,
+          "isComplete": true,
+          "batchId": "batch_13_12"
+        }
+      ],
+      "totalTokens": 82.5,
+      "activeDays": 13,
+      "complianceRate": 92.85714285714286,
+      "batchSubmissions": 10,
+      "partialSubmissions": 3,
+      "batchRate": 76.92307692307693
+    },
+    {
+      "userId": "I007",
+      "group": "incentive",
+      "behaviorProfile": "evening",
+      "logs": [
+        {
+          "day": 1,
+          "timestamp": "2026-01-01T16:01:30.000Z",
+          "steps": 7619,
+          "water": 2.1,
+          "sleep": 7.6,
+          "tokensEarned": 7.5,
+          "isComplete": true,
+          "batchId": "batch_0_0"
+        },
+        {
+          "day": 3,
+          "timestamp": "2026-01-03T17:35:07.000Z",
+          "steps": 8509,
+          "water": 2.7,
+          "sleep": 7.9,
+          "tokensEarned": 7.5,
+          "isComplete": true,
+          "batchId": "batch_2_1"
+        },
+        {
+          "day": 4,
+          "timestamp": "2026-01-04T17:05:31.000Z",
+          "steps": 9396,
+          "water": 2.4,
+          "sleep": 7.1,
+          "tokensEarned": 7.5,
+          "isComplete": true,
+          "batchId": "batch_3_2"
+        },
+        {
+          "day": 5,
+          "timestamp": "2026-01-05T17:34:35.000Z",
+          "steps": 8884,
+          "water": 2.1,
+          "sleep": 8.1,
+          "tokensEarned": 7.5,
+          "isComplete": true,
+          "batchId": "batch_4_3"
+        },
+        {
+          "day": 6,
+          "timestamp": "2026-01-06T16:54:46.000Z",
+          "steps": 9290,
+          "water": 2.8,
+          "sleep": 8.2,
+          "tokensEarned": 7.5,
+          "isComplete": true,
+          "batchId": "batch_5_4"
+        },
+        {
+          "day": 7,
+          "timestamp": "2026-01-07T16:36:41.000Z",
+          "steps": 10068,
+          "water": 2.5,
+          "sleep": 7.7,
+          "tokensEarned": 7.5,
+          "isComplete": true,
+          "batchId": "batch_6_5"
+        },
+        {
+          "day": 8,
+          "timestamp": "2026-01-08T18:06:09.000Z",
+          "steps": 10808,
+          "water": 2,
+          "sleep": 6.8,
+          "tokensEarned": 7.5,
+          "isComplete": true,
+          "batchId": "batch_7_6"
+        },
+        {
+          "day": 9,
+          "timestamp": "2026-01-09T16:11:58.000Z",
+          "steps": 9219,
+          "water": 2.4,
+          "sleep": 8.3,
+          "tokensEarned": 7.5,
+          "isComplete": true,
+          "batchId": "batch_8_7"
+        },
+        {
+          "day": 10,
+          "timestamp": "2026-01-10T19:04:04.000Z",
+          "steps": null,
+          "water": null,
+          "sleep": 7.8,
+          "tokensEarned": 2.5,
+          "isComplete": false,
+          "batchId": null
+        },
+        {
+          "day": 11,
+          "timestamp": "2026-01-11T16:25:02.000Z",
+          "steps": 9861,
+          "water": 2.6,
+          "sleep": 6.4,
+          "tokensEarned": 7.5,
+          "isComplete": true,
+          "batchId": "batch_10_9"
+        },
+        {
+          "day": 12,
+          "timestamp": "2026-01-12T18:03:55.000Z",
+          "steps": null,
+          "water": 2.6,
+          "sleep": 6.5,
+          "tokensEarned": 2.5,
+          "isComplete": false,
+          "batchId": null
+        },
+        {
+          "day": 13,
+          "timestamp": "2026-01-13T19:23:28.000Z",
+          "steps": 10917,
+          "water": null,
+          "sleep": null,
+          "tokensEarned": 2.5,
+          "isComplete": false,
+          "batchId": null
+        },
+        {
+          "day": 14,
+          "timestamp": "2026-01-14T16:29:22.000Z",
+          "steps": 9763,
+          "water": 2.8,
+          "sleep": 7.6,
+          "tokensEarned": 7.5,
+          "isComplete": true,
+          "batchId": "batch_13_12"
+        }
+      ],
+      "totalTokens": 82.5,
+      "activeDays": 13,
+      "complianceRate": 92.85714285714286,
+      "batchSubmissions": 10,
+      "partialSubmissions": 3,
+      "batchRate": 76.92307692307693
+    },
+    {
+      "userId": "I008",
+      "group": "incentive",
+      "behaviorProfile": "evening",
+      "logs": [
+        {
+          "day": 1,
+          "timestamp": "2026-01-01T16:59:43.000Z",
+          "steps": 9356,
+          "water": 2.7,
+          "sleep": 6.7,
+          "tokensEarned": 7.5,
+          "isComplete": true,
+          "batchId": "batch_0_0"
+        },
+        {
+          "day": 2,
+          "timestamp": "2026-01-02T17:32:31.000Z",
+          "steps": null,
+          "water": 2.5,
+          "sleep": 7.7,
+          "tokensEarned": 2.5,
+          "isComplete": false,
+          "batchId": null
+        },
+        {
+          "day": 3,
+          "timestamp": "2026-01-03T16:35:06.000Z",
+          "steps": 10976,
+          "water": null,
+          "sleep": null,
+          "tokensEarned": 2.5,
+          "isComplete": false,
+          "batchId": null
+        },
+        {
+          "day": 4,
+          "timestamp": "2026-01-04T19:43:20.000Z",
+          "steps": 11740,
+          "water": 2.8,
+          "sleep": 7.8,
+          "tokensEarned": 7.5,
+          "isComplete": true,
+          "batchId": "batch_3_3"
+        },
+        {
+          "day": 5,
+          "timestamp": "2026-01-05T16:29:40.000Z",
+          "steps": 10727,
+          "water": 3.3,
+          "sleep": 7.5,
+          "tokensEarned": 7.5,
+          "isComplete": true,
+          "batchId": "batch_4_4"
+        },
+        {
+          "day": 6,
+          "timestamp": "2026-01-06T05:32:54.000Z",
+          "steps": null,
+          "water": null,
+          "sleep": 6.8,
+          "tokensEarned": 2.5,
+          "isComplete": false,
+          "batchId": null
+        },
+        {
+          "day": 8,
+          "timestamp": "2026-01-08T19:08:06.000Z",
+          "steps": 8525,
+          "water": 2.6,
+          "sleep": 8.3,
+          "tokensEarned": 7.5,
+          "isComplete": true,
+          "batchId": "batch_7_6"
+        },
+        {
+          "day": 9,
+          "timestamp": "2026-01-09T19:35:59.000Z",
+          "steps": 10752,
+          "water": 2.5,
+          "sleep": 6.5,
+          "tokensEarned": 7.5,
+          "isComplete": true,
+          "batchId": "batch_8_7"
+        },
+        {
+          "day": 10,
+          "timestamp": "2026-01-10T04:52:48.000Z",
+          "steps": 9556,
+          "water": 2.6,
+          "sleep": 6.5,
+          "tokensEarned": 7.5,
+          "isComplete": true,
+          "batchId": "batch_9_8"
+        },
+        {
+          "day": 11,
+          "timestamp": "2026-01-11T19:47:41.000Z",
+          "steps": 9699,
+          "water": 2.5,
+          "sleep": 7,
+          "tokensEarned": 7.5,
+          "isComplete": true,
+          "batchId": "batch_10_9"
+        },
+        {
+          "day": 12,
+          "timestamp": "2026-01-12T16:29:00.000Z",
+          "steps": 11909,
+          "water": 3.2,
+          "sleep": 7.4,
+          "tokensEarned": 7.5,
+          "isComplete": true,
+          "batchId": "batch_11_10"
+        },
+        {
+          "day": 13,
+          "timestamp": "2026-01-13T17:41:27.000Z",
+          "steps": 8476,
+          "water": 3.3,
+          "sleep": 7.1,
+          "tokensEarned": 7.5,
+          "isComplete": true,
+          "batchId": "batch_12_11"
+        },
+        {
+          "day": 14,
+          "timestamp": "2026-01-14T16:18:52.000Z",
+          "steps": null,
+          "water": 3.1,
+          "sleep": null,
+          "tokensEarned": 2.5,
+          "isComplete": false,
+          "batchId": null
+        }
+      ],
+      "totalTokens": 77.5,
+      "activeDays": 13,
+      "complianceRate": 92.85714285714286,
+      "batchSubmissions": 9,
+      "partialSubmissions": 4,
+      "batchRate": 69.23076923076923
+    },
+    {
+      "userId": "I009",
+      "group": "incentive",
+      "behaviorProfile": "mixed",
+      "logs": [
+        {
+          "day": 2,
+          "timestamp": "2026-01-02T04:32:03.000Z",
+          "steps": 9879,
+          "water": 2.7,
+          "sleep": 6.5,
+          "tokensEarned": 7.5,
+          "isComplete": true,
+          "batchId": "batch_1_0"
+        },
+        {
+          "day": 4,
+          "timestamp": "2026-01-04T04:17:46.000Z",
+          "steps": 10894,
+          "water": 2.1,
+          "sleep": 5.6,
+          "tokensEarned": 7.5,
+          "isComplete": true,
+          "batchId": "batch_3_1"
+        },
+        {
+          "day": 5,
+          "timestamp": "2026-01-05T18:01:55.000Z",
+          "steps": 7983,
+          "water": 2.2,
+          "sleep": 7,
+          "tokensEarned": 7.5,
+          "isComplete": true,
+          "batchId": "batch_4_2"
+        },
+        {
+          "day": 6,
+          "timestamp": "2026-01-06T19:58:07.000Z",
+          "steps": 10284,
+          "water": 2.2,
+          "sleep": 5.7,
+          "tokensEarned": 7.5,
+          "isComplete": true,
+          "batchId": "batch_5_3"
+        },
+        {
+          "day": 7,
+          "timestamp": "2026-01-07T05:59:10.000Z",
+          "steps": 8849,
+          "water": 2.7,
+          "sleep": 6.3,
+          "tokensEarned": 7.5,
+          "isComplete": true,
+          "batchId": "batch_6_4"
+        },
+        {
+          "day": 8,
+          "timestamp": "2026-01-08T06:25:56.000Z",
+          "steps": null,
+          "water": 2.7,
+          "sleep": 6.8,
+          "tokensEarned": 2.5,
+          "isComplete": false,
+          "batchId": null
+        },
+        {
+          "day": 9,
+          "timestamp": "2026-01-09T06:48:39.000Z",
+          "steps": 10844,
+          "water": 2.2,
+          "sleep": null,
+          "tokensEarned": 2.5,
+          "isComplete": false,
+          "batchId": null
+        },
+        {
+          "day": 11,
+          "timestamp": "2026-01-11T17:29:25.000Z",
+          "steps": 11123,
+          "water": null,
+          "sleep": null,
+          "tokensEarned": 2.5,
+          "isComplete": false,
+          "batchId": null
+        },
+        {
+          "day": 13,
+          "timestamp": "2026-01-13T10:55:58.000Z",
+          "steps": 9893,
+          "water": 2.5,
+          "sleep": 6,
+          "tokensEarned": 7.5,
+          "isComplete": true,
+          "batchId": "batch_12_8"
+        },
+        {
+          "day": 14,
+          "timestamp": "2026-01-14T16:54:19.000Z",
+          "steps": 10487,
+          "water": 2.1,
+          "sleep": 7.3,
+          "tokensEarned": 7.5,
+          "isComplete": true,
+          "batchId": "batch_13_9"
+        }
+      ],
+      "totalTokens": 60,
+      "activeDays": 10,
+      "complianceRate": 71.42857142857143,
+      "batchSubmissions": 7,
+      "partialSubmissions": 3,
+      "batchRate": 70
+    },
+    {
+      "userId": "I010",
+      "group": "incentive",
+      "behaviorProfile": "mixed",
+      "logs": [
+        {
+          "day": 1,
+          "timestamp": "2026-01-01T10:10:21.000Z",
+          "steps": 11345,
+          "water": 2.3,
+          "sleep": 8.4,
+          "tokensEarned": 7.5,
+          "isComplete": true,
+          "batchId": "batch_0_0"
+        },
+        {
+          "day": 2,
+          "timestamp": "2026-01-02T05:53:36.000Z",
+          "steps": 11703,
+          "water": 2.5,
+          "sleep": 7.4,
+          "tokensEarned": 7.5,
+          "isComplete": true,
+          "batchId": "batch_1_1"
+        },
+        {
+          "day": 3,
+          "timestamp": "2026-01-03T09:13:15.000Z",
+          "steps": 9635,
+          "water": 2.7,
+          "sleep": 7.2,
+          "tokensEarned": 7.5,
+          "isComplete": true,
+          "batchId": "batch_2_2"
+        },
+        {
+          "day": 5,
+          "timestamp": "2026-01-05T04:35:19.000Z",
+          "steps": 9686,
+          "water": 2.6,
+          "sleep": 7.4,
+          "tokensEarned": 7.5,
+          "isComplete": true,
+          "batchId": "batch_4_3"
+        },
+        {
+          "day": 6,
+          "timestamp": "2026-01-06T05:26:41.000Z",
+          "steps": 10982,
+          "water": 2.2,
+          "sleep": 8.6,
+          "tokensEarned": 7.5,
+          "isComplete": true,
+          "batchId": "batch_5_4"
+        },
+        {
+          "day": 8,
+          "timestamp": "2026-01-08T06:37:21.000Z",
+          "steps": 9308,
+          "water": null,
+          "sleep": null,
+          "tokensEarned": 2.5,
+          "isComplete": false,
+          "batchId": null
+        },
+        {
+          "day": 9,
+          "timestamp": "2026-01-09T05:06:22.000Z",
+          "steps": 11188,
+          "water": 2.3,
+          "sleep": 8.1,
+          "tokensEarned": 7.5,
+          "isComplete": true,
+          "batchId": "batch_8_6"
+        },
+        {
+          "day": 10,
+          "timestamp": "2026-01-10T17:05:57.000Z",
+          "steps": 9901,
+          "water": 2.1,
+          "sleep": 7.7,
+          "tokensEarned": 7.5,
+          "isComplete": true,
+          "batchId": "batch_9_7"
+        },
+        {
+          "day": 11,
+          "timestamp": "2026-01-11T16:21:28.000Z",
+          "steps": 9027,
+          "water": 2.1,
+          "sleep": 8.8,
+          "tokensEarned": 7.5,
+          "isComplete": true,
+          "batchId": "batch_10_8"
+        },
+        {
+          "day": 12,
+          "timestamp": "2026-01-12T10:46:57.000Z",
+          "steps": 9599,
+          "water": 2.8,
+          "sleep": 7.8,
+          "tokensEarned": 7.5,
+          "isComplete": true,
+          "batchId": "batch_11_9"
+        },
+        {
+          "day": 13,
+          "timestamp": "2026-01-13T17:57:00.000Z",
+          "steps": 11693,
+          "water": 2.3,
+          "sleep": 8.6,
+          "tokensEarned": 7.5,
+          "isComplete": true,
+          "batchId": "batch_12_10"
+        },
+        {
+          "day": 14,
+          "timestamp": "2026-01-14T05:18:39.000Z",
+          "steps": 9599,
+          "water": 2.2,
+          "sleep": 7.1,
+          "tokensEarned": 7.5,
+          "isComplete": true,
+          "batchId": "batch_13_11"
+        }
+      ],
+      "totalTokens": 85,
+      "activeDays": 12,
+      "complianceRate": 85.71428571428571,
+      "batchSubmissions": 11,
+      "partialSubmissions": 1,
+      "batchRate": 91.66666666666666
+    }
+  ],
+  "summary": {
+    "controlGroupCompliance": 55,
+    "incentiveGroupCompliance": 89.29,
+    "complianceImprovement": 34.29,
+    "totalTokensDistributed": 797.5,
+    "averageTokensPerUser": 79.8,
+    "averageBatchSubmissionRate": 77.6
+  },
+  "dailyMetrics": [
+    {
+      "day": 1,
+      "controlCompliance": 80,
+      "incentiveCompliance": 80,
+      "tokensDistributed": 55,
+      "batchSubmissionRate": 87.5
+    },
+    {
+      "day": 2,
+      "controlCompliance": 60,
+      "incentiveCompliance": 80,
+      "tokensDistributed": 45,
+      "batchSubmissionRate": 62.5
+    },
+    {
+      "day": 3,
+      "controlCompliance": 60,
+      "incentiveCompliance": 90,
+      "tokensDistributed": 57.5,
+      "batchSubmissionRate": 77.8
+    },
+    {
+      "day": 4,
+      "controlCompliance": 60,
+      "incentiveCompliance": 80,
+      "tokensDistributed": 55,
+      "batchSubmissionRate": 87.5
+    },
+    {
+      "day": 5,
+      "controlCompliance": 50,
+      "incentiveCompliance": 100,
+      "tokensDistributed": 75,
+      "batchSubmissionRate": 100
+    },
+    {
+      "day": 6,
+      "controlCompliance": 40,
+      "incentiveCompliance": 90,
+      "tokensDistributed": 62.5,
+      "batchSubmissionRate": 88.9
+    },
+    {
+      "day": 7,
+      "controlCompliance": 70,
+      "incentiveCompliance": 80,
+      "tokensDistributed": 55,
+      "batchSubmissionRate": 87.5
+    },
+    {
+      "day": 8,
+      "controlCompliance": 60,
+      "incentiveCompliance": 100,
+      "tokensDistributed": 65,
+      "batchSubmissionRate": 80
+    },
+    {
+      "day": 9,
+      "controlCompliance": 20,
+      "incentiveCompliance": 90,
+      "tokensDistributed": 52.5,
+      "batchSubmissionRate": 66.7
+    },
+    {
+      "day": 10,
+      "controlCompliance": 70,
+      "incentiveCompliance": 90,
+      "tokensDistributed": 57.5,
+      "batchSubmissionRate": 77.8
+    },
+    {
+      "day": 11,
+      "controlCompliance": 60,
+      "incentiveCompliance": 100,
+      "tokensDistributed": 65,
+      "batchSubmissionRate": 80
+    },
+    {
+      "day": 12,
+      "controlCompliance": 40,
+      "incentiveCompliance": 80,
+      "tokensDistributed": 45,
+      "batchSubmissionRate": 62.5
+    },
+    {
+      "day": 13,
+      "controlCompliance": 40,
+      "incentiveCompliance": 90,
+      "tokensDistributed": 52.5,
+      "batchSubmissionRate": 66.7
+    },
+    {
+      "day": 14,
+      "controlCompliance": 60,
+      "incentiveCompliance": 100,
+      "tokensDistributed": 55,
+      "batchSubmissionRate": 60
+    }
+  ]
+}
